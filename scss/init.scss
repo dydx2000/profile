@@ -1,0 +1,156 @@
+@import "./normalize.scss";
+
+*,
+*::before,
+*::after {
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html,
+body {
+  // overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+body {
+  // height: 100%;
+  display: flex;
+  width: 720px;
+  // flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  // background-color:blue;
+  background-image: linear-gradient(#e66465, #9198e5);
+
+
+}
+
+.header {
+  margin-top: 10px;
+  // background-color: aquamarine;
+  width: 100%;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+
+    li>a {
+      font-size: 1.3rem;
+      color: white;
+    }
+  }
+
+}
+
+.main {
+  // background-color: rgba(11, 128, 30, 0.829);
+  width: 100%;
+  box-shadow: 3px 3px 5px  rgba(0, 0, 0, .3);
+
+
+}
+
+.footer {
+  margin-bottom: 20px;
+  width: 25%;
+
+  // background-color: bisque;
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      font-size: 1.5rem;
+      color: whitesmoke;
+    }
+
+  }
+
+}
+
+
+
+.profile {
+  // height: 300px;
+  padding: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  
+  .left {
+    h1 {
+      font-weight: 200;
+      color: white;
+    }
+
+    h2 {
+      font-weight: 200;
+      color: yellow;
+    }
+
+    hr {
+      width: 20%;
+      margin: 1.5rem 0;
+      border-color: white;
+    }
+
+    div {
+      color: white;
+    }
+
+    button {
+      height: 30px;
+      // --height: height 100%;
+      border: none;
+      font-size: 0.7rem;
+      font-weight: 500;
+      margin-left: 10px;
+      margin: 20px 0;
+      padding: 10px 30px;
+      color: #5cd5d3;
+      border-radius: 15px;
+      text-align: center;
+      align-items: center;
+
+      box-shadow: 4px 4px 2px rgba(0, 0, 0, .3) ;
+
+    }
+
+    .social ul {
+
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 2rem;
+
+    }
+
+
+
+  }
+
+
+
+}
+
+
+.right {
+
+
+  img {
+    border-radius: 50%;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, .2);
+  }
+
+}
